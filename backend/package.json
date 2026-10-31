@@ -1,18 +1,31 @@
 {
-  "name": "backend",
+  "name": "shopper-backend",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "REST API for the Shopper store: products, accounts, cart and orders",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev:memory": "node scripts/dev-memory.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test test/"
   },
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.4.4",
-    "multer": "^1.4.5-lts.1"
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.7"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0",
+    "nodemon": "^3.1.14"
   }
 }
