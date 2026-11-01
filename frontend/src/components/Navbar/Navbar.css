@@ -53,8 +53,11 @@
     color: #515151;
     font-size: 25px;
     font-weight: 500;
-    background: rgb(194, 89, 54);
+    background: #fff;
     cursor: pointer;
+}
+.nav-login-cart button:hover{
+    background: #f3f3f3;
 }
 .nav-login-cart button:active{
     background: #f3f3f3;

@@ -1,0 +1,19 @@
+/* styles for the pieces added when the shop got a backend */
+.status-box { max-width: 600px; margin: 100px auto; text-align: center; color: #454545; display: flex; flex-direction: column; gap: 16px; align-items: center; font-size: 18px; }
+.status-box button, .status-box a { padding: 12px 30px; background: #ff4141; color: white; border: none; border-radius: 30px; cursor: pointer; text-decoration: none; font-size: 16px; }
+.promo-ok { color: #0a8f3c; font-size: 14px; margin-top: 8px; }
+.promo-error, .form-error { color: #d12a2a; font-size: 14px; margin-top: 8px; }
+.form-hint { color: #7b7b7b; font-size: 14px; margin-top: 10px; }
+.nav-user-link { color: #626262; font-size: 16px; text-decoration: none; }
+.size-selected { border: 2px solid #ff4141 !important; background: #fff1f1 !important; }
+.shopcategory-sort select { margin-left: 10px; padding: 8px 12px; border-radius: 20px; border: 1px solid #888; font-size: 16px; background: white; }
+.cart-empty { text-align: center; margin: 80px auto; display: flex; flex-direction: column; gap: 14px; align-items: center; color: #454545; }
+.cart-empty a { padding: 12px 30px; background: #ff4141; color: white; border-radius: 30px; text-decoration: none; }
+.cartitems-qty { display: flex; align-items: center; gap: 12px; width: 100px; height: 50px; justify-content: center; border: 2px solid #ebebeb; background: #fff; }
+.cartitems-qty button { width: 28px; height: 28px; border: 1px solid #ccc; background: white; border-radius: 50%; cursor: pointer; font-size: 18px; line-height: 1; }
+.cartitems-remove-icon { cursor: pointer; }
+.newsletter form { display: flex; justify-content: center; }
+.newsletter .promo-ok, .newsletter .promo-error { text-align: center; }
+.loginsignup-container .form-error { margin: 14px 0 0; }
+.loginsignup-container button:disabled { opacity: 0.6; cursor: not-allowed; }
+.loginsignup-login span { cursor: pointer; }
